@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+   <head>
+    <title>DPS Incidents App</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+    <script src="../static/js/jquery-1.11.2.js"></script>
+    <link rel="stylesheet" href="../static/css/style.css" />
+ 
+ 
+</head>
+ 
+<body>
+     <div style="background-image: url('../static/img_usc.jpeg'); background-size: cover; height:1200px;">
+        <div class="container">
+        <section>
+            <form class="form-horizontal" method="post" action="/addIncidents">
+                <fieldset>
+ 
+                    <!-- Form Name -->
+                    <legend>Report Offense</legend>
+ 
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="txtTitle">Title</label>
+                        <div class="col-md-4">
+                            <input id="txtTitle" name="title" type="text" placeholder="placeholder" class="form-control input-md">
+                        </div>
+                    </div>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="txtTitle">Date & Time of Occurrence</label>
+                        <div class="col-md-4">
+                            <input id="txtTitle" name="date" type="text" placeholder="placeholder" class="form-control input-md">
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="txtTitle">Location</label>
+                        <div class="col-md-4">
+                            <input id="txtTitle" name="location" type="text" placeholder="placeholder" class="form-control input-md">
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="txtTitle">Vehicle Description</label>
+                        <div class="col-md-4">
+                            <input id="txtTitle" name="vehicle" type="text" placeholder="placeholder" class="form-control input-md">
+                        </div>
+                    </div>
+ 
+                    <!-- Textarea -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="txtPost">Incident Description</label>
+                        <div class="col-md-4">
+                            <textarea class="form-control" id="txtPost" name="incident"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Textarea -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="txtPost">Suspect Description</label>
+                        <div class="col-md-4">
+                            <textarea class="form-control" id="txtPost" name="suspect"></textarea>
+                        </div>
+                    </div>
+ 
+                    <!-- Button -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="singlebutton"></label>
+                        <div class="col-md-4">
+                            <input id="singlebutton" name="singlebutton" class="btn btn-primary" type="submit" value="Publish" />
+                        </div>
+                    </div>
+ 
+                </fieldset>
+            </form>
+ 
+        </section>
+ 
+    </div>
+</body>
+ 
+</html>

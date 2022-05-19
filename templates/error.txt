@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Unauthorized Access:: DPS Incidents App</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css" />
+ 
+</head>
+ 
+<body>
+ <div style="background-image: url(''../static/img_usc.jpeg"); background-size: cover; height:1200px;">
+    <div class="container">
+       
+ 
+        <div class="jumbotron">
+            <h1>Error!</h1>
+        </div>
+ 
+ 
+ 
+    </div>
+</body>
+ 
+</html>
